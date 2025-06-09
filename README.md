@@ -65,6 +65,7 @@ cd "C:\Program Files\MATLAB\R2023b\extern\engines\python"
 python setup.py install
 
 2️⃣ Run MATLAB Simulink Model Manually (Optional):
+
 Open Vehicle_Suspension.slx in MATLAB.
 Load suspension parameters:
 matlab
@@ -74,10 +75,12 @@ load('suspension_params.mat');
 Run the Simulink model and check results.
 
 3️⃣ Run GA-Based Optimization in Python:
+
 bash
 Copy
 Edit
 python optimize_suspension.py
+
 ⚙️ How It Works
 
 1️⃣ Reads Suspension Data (from suspension_params.mat).

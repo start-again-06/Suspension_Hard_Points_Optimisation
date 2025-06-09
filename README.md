@@ -79,11 +79,17 @@ Copy
 Edit
 python optimize_suspension.py
 ⚙️ How It Works
+
 1️⃣ Reads Suspension Data (from suspension_params.mat).
+
 2️⃣ Runs Simulink Simulation using MATLAB Engine API.
+
 3️⃣ Extracts Key Performance Metrics (Body Roll, Camber Gain).
+
 4️⃣ Uses Genetic Algorithm (GA) to optimize suspension parameters.
+
 5️⃣ Compares & Visualizes Results (Initial vs Optimized).
+
 
 📈 Optimization Results:
 

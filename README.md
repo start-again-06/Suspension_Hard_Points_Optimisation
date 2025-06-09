@@ -10,9 +10,13 @@ This project optimizes multi-body vehicle dynamics using a Genetic Algorithm (GA
 📌 Key Features:
 
 ✅ Automated Parameter Tuning: Uses GA to optimize spring stiffness, damping ratio, and roll center height.
+
 ✅ Python-MATLAB Simulink Integration: Updates Simulink .mat files and runs simulations using matlab.engine.
+
 ✅ Simulation-Based Evaluation: Extracts key performance metrics (Body Roll, Camber Gain).
+
 ✅ Visualization: Compares original vs optimized suspension parameters in a bar chart.
+
 ✅ Scalable & Extensible: Can be adapted for more vehicle dynamics parameters (Caster, Toe, Ackermann %).
 
 📁 Project Structure:
@@ -24,13 +28,21 @@ Edit
 📂 Vehicle-Dynamics-GA-Simulink:
 
 │── 📜 README.md              # Project Documentation
+
 │── 📜 requirements.txt       # Python Dependencies
+
 │── 📜 optimize_suspension.py # Main Python Script for GA Optimization
+
 │── 📜 suspension_params.mat  # MATLAB Input File for Simulink
+
 │── 📜 run_simulation.m       # MATLAB Script for Running Simulink
+
 │── 📜 Vehicle_Suspension.slx # Simulink Model
+
 │── 📊 results/               # Directory for Simulation Outputs
+
 └── 📂 utils/                 # Utility Functions
+
 🛠️ Installation & Setup:
 
 1️⃣ Install Dependencies:
